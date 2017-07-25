@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="@drawable/gradient"
+    tools:context="com.example.tommylee.alatapp.Login">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/alat_coloured_copy_4_smaller"
+            android:layout_marginLeft="30sp"
+            android:layout_marginTop="25sp"/>
+        
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48sp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="50sp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Welcome back..."
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:textSize="40sp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50sp"
+        android:layout_marginLeft="30sp"
+        android:orientation="vertical">
+        <EditText
+            style="@style/Widget.AppCompat.EditText"
+            android:elevation="4sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:layout_marginTop="4sp"
+            android:hint="Email address"
+            android:textColorHint="#ffffff"/>
+        <EditText
+            style="@style/Widget.AppCompat.EditText"
+            android:elevation="4sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:layout_marginTop="30sp"
+            android:hint="Password"
+            android:textColorHint="#ffffff"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forgot Password?"
+            android:textColor="#ffffff"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="40sp"
+            android:textColor="#99003e"
+            android:text="Login"
+            android:layout_marginTop="20sp"
+            android:layout_marginLeft="28sp"
+            android:layout_marginRight="28sp"/>
+    </LinearLayout>
+
+</LinearLayout>
